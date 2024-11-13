@@ -14,7 +14,7 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
 
 
 
-# Create your models here.
+# Create your wonderful models here.
 class Department(models.Model):
     DepartmentId = models.AutoField(primary_key=True)
     DepartmentName = models.CharField(max_length=200)
